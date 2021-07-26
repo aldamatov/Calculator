@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: red;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+}
+.mainParent {
+  width: 500px;
+  background: white;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: -4px 4px 4px black;
+}
+
+.result {
+  background: #fffcfc;
+  border: 1px solid #000000;
+  box-shadow: -4px 4px 4px black;
+  border-radius: 10rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+
+  font-weight: bolder;
+
+  display: flex;
+  justify-content: flex-end;
+}
+.items {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    " clear clean dived multi"
+    " no7 no8 no9 minus"
+    " no4 no5 no6 plus"
+    " no3 no2 no1 ans"
+    " no0 no0 no0 ans";
+}
+.items > * {
+  min-height: 50px;
+  border: 0 solid rgba(0, 0, 0, 25);
+}
+
+.clear {
+  grid-area: clear;
+}
+.clean {
+  grid-area: clean;
+}
+.dived {
+  grid-area: dived;
+}
+.multi {
+  grid-area: multi;
+}
+.plus {
+  grid-area: plus;
+}
+.minus {
+  grid-area: minus;
+}
+.ans {
+  grid-area: ans;
+}
+.no-0 {
+  grid-area: no0;
+}
+.no-1 {
+  grid-area: no1;
+}
+.no-2 {
+  grid-area: no2;
+}
+.no-3 {
+  grid-area: no3;
+}
+.no-4 {
+  grid-area: no4;
+}
+.no-5 {
+  grid-area: no5;
+}
+.no-6 {
+  grid-area: no6;
+}
+.no-7 {
+  grid-area: no7;
+}
+.no-8 {
+  grid-area: no8;
+}
+.no-9 {
+  grid-area: no9;
+}
