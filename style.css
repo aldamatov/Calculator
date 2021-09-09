@@ -2,32 +2,33 @@
   box-sizing: border-box;
 }
 body {
-  background: red;
+  background: linear-gradient(#012353, white);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 2rem;
+  font-size: rem;
 }
 .mainParent {
   width: 500px;
-  background: white;
+  background: #012353;
   margin-top: 5rem;
   padding: 2rem;
   border-radius: 5px;
-  box-shadow: -4px 4px 4px black;
+  box-shadow: -4px 4px 4px white;
 }
 h1 {
-  color: blue;
+  color: white;
+  margin-bottom: 0%;
 }
 .result {
   background: #fffcfc;
-  border: 2px solid #000000;
-  box-shadow: -4px 4px 4px black;
+  border: 1px solid blue;
+  box-shadow: -4px 4px 4px skyblue;
   border-radius: 10rem;
   padding: 1rem;
   margin-bottom: 3.5rem;
-
+  font-size: 3rem;
   font-weight: bolder;
 
   display: flex;
@@ -45,8 +46,11 @@ h1 {
     " no0 no0 no0 ans";
 }
 .items > * {
+  border-radius: 10rem;
   min-height: 50px;
   border: 0 solid rgba(0, 0, 0, 25);
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .clear {
