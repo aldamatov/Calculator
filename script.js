@@ -44,5 +44,5 @@ const resetDisplay=() =>{
 //Generate random Number
 const randomVal = () => {
     const random = Math.floor(Math.random()*10);
-    return random < 3 ? random:0;
+    return random < 5 ? random:0;
 }
