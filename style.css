@@ -2,17 +2,16 @@
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(#012353, white);
+  background: rgb(31, 150, 140);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: rem;
+  font-size: 18px;
 }
 .mainParent {
-  width: 500px;
   background: #012353;
-  margin-top: 5rem;
+  margin-top: 1rem;
   padding: 2rem;
   border-radius: 5px;
   box-shadow: -4px 4px 4px white;
@@ -42,7 +41,7 @@ h1 {
     " clear clean dived multi"
     " no7 no8 no9 minus"
     " no4 no5 no6 plus"
-    " no3 no2 no1 ans"
+    " no1 no2 no3 ans"
     " no0 no0 no0 ans";
 }
 .items > * {
