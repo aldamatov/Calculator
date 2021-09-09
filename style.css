@@ -16,18 +16,18 @@ body {
   border-radius: 5px;
   box-shadow: -4px 4px 4px white;
 }
-h1 {
+/* h1 {
   color: white;
   margin-bottom: 0%;
-}
+} */
 .result {
   background: #fffcfc;
   border: 1px solid blue;
   box-shadow: -4px 4px 4px skyblue;
   border-radius: 10rem;
   padding: 1rem;
-  margin-bottom: 3.5rem;
-  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
   font-weight: bolder;
 
   display: flex;
@@ -45,7 +45,7 @@ h1 {
     " no0 no0 no0 ans";
 }
 .items > * {
-  border-radius: 10rem;
+  border-radius: 15rem;
   min-height: 50px;
   border: 0 solid rgba(0, 0, 0, 25);
   font-size: 2rem;
