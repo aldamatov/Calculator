@@ -16,10 +16,10 @@ body {
   border-radius: 5px;
   box-shadow: -4px 4px 4px white;
 }
-/* h1 {
+h1 {
   color: white;
   margin-bottom: 0%;
-} */
+}
 .result {
   background: #fffcfc;
   border: 1px solid blue;
